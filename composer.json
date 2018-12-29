@@ -1,0 +1,26 @@
+{
+    "name": "thincharm/php-ai",
+    "description": "An advance AI created using PHP powered by Symfony.",
+    "keywords": [],
+    "require": {
+        "php": ">=7.1",
+        "symfony/cache": "^4.2",
+        "symfony/debug": "^4.2",
+        "symfony/polyfill-apcu": "^1.10",
+        "symfony/polyfill-php71": "^1.10",
+        "symfony/polyfill-php72": "^1.10",
+        "symfony/polyfill-php73": "^1.10",
+        "symfony/property-access": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AI\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
+
